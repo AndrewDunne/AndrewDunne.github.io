@@ -12,15 +12,15 @@ body {
 }
 @font-face {
   font-family: sketch;
-  src: url(Sketch.ttf);
+  src: url(/fonts/Sketch.ttf);
 }
 @font-face {
   font-family: open;
-  src: url(OpenSans-Regular.ttf);
+  src: url(/fonts/OpenSans-Regular.ttf);
 }
 @font-face {
   font-family: openC;
-  src: url(OpenSans-CondLight.ttf);
+  src: url(/fonts/OpenSans-CondLight.ttf);
 }
 .logo{
 	font-family:sketch;
