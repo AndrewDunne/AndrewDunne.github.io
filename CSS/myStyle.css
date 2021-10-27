@@ -110,9 +110,6 @@ li a {
 li a:hover {
   background-color: rgba(30,30,0,0.5);
 }
-h1{
-	margin:5px;
-}
 a:visited{
 	color:rgb(255,240,220);
 }
@@ -140,6 +137,10 @@ a:active{
 	margin-bottom:40px;
 	width:36%;
 	min-width:150px;
+}
+.galTextHead{
+	font-size:32px;
+	font-weight:bold;
 }
 .gallery{
 	display: flex;
