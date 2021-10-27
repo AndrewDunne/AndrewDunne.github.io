@@ -86,20 +86,20 @@ body {
 .parallax__layer--back {
   transform: translateZ(-1px);
 }
-ul {
+.linkBarList{
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
 
-li {
+.linkBarItem{
   float: right;
   background-color: rgba(30,30,0,0.3);
   background-blend-mode:multiply;
 }
 
-li a {
+.linkBarLink{
   display: block;
   color:white;
   font-family: openC;
@@ -107,7 +107,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-li a:hover {
+.linkBarLink:hover {
   background-color: rgba(30,30,0,0.5);
 }
 a:visited{
