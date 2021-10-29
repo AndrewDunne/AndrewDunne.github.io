@@ -6,7 +6,7 @@ body {
 	background-color: black;
 	color:rgb(255,240,220);
 	font-family: open;
-	font-size: 2vmin;
+	font-size: max(2vmin,12px);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
@@ -129,7 +129,7 @@ a:active{
 	width:40%;
 }
 .galText{
-	border: none;
+	border:none;
 	text-align:center;
 	font-size:16px;
 	margin-left:2%;
@@ -143,8 +143,14 @@ a:active{
 	font-weight:bold;
 }
 .gallery{
-	display: flex;
-	justify-content: center;
+	display:flex;
+	justify-content:center;
 	align-items: top;
 	margin-top:10px;
+}
+.bullet{
+	margin-left:20%;
+	margin-right:min(400px,20%);
+	background-color:rgba(255,255,255,.6);
+	box-shadow: 0px 0px 40px 40px rgba(255,255,255,.6);
 }
