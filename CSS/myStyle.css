@@ -121,6 +121,7 @@ a:active{
 	margin:20px;
 	margin-bottom:5px;
 	width:40%;
+	align-self: center;
 }
 .galCaption{
 	text-align:center;
