@@ -114,6 +114,12 @@ body {
 .linkBarLink:hover {
   background-color: rgba(30,30,0,0.5);
 }
+a:link{
+	color:rgb(255,240,220);
+}
+a:hover{
+	color:rgb(255,240,220);
+}
 a:visited{
 	color:rgb(255,240,220);
 }
